@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
+
+table {
+    margin: auto;
+}
+
+table,
+td {
+    border: 1px solid wheat;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: wheat;
+    font-family: 'Indie Flower', cursive;
+    cursor: pointer;
+    user-select: none;
+}
